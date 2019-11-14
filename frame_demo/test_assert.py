@@ -20,5 +20,6 @@ def test_page_sourcs(driver):
     #sleep(2)
     sourcs=driver.page_source#获取页面源代码
     print(sourcs)
-    assert "手工关闭提示" in sourcs
+    assert "手工关闭提示" in sourcs#对源代码进行断言
     sleep(2)
+     
